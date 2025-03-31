@@ -1,6 +1,12 @@
-1 | You wake up in a forest clearing. There are two paths. | 2 | 3
-2 | You follow the path to the left and encounter a river. | 4 | 5
-3 | You go right and find an old cabin. | 5 | 6
-4 | You swim across the river and find a treasure chest. | -1 | -1
-5 | You find a hidden passageway that leads to a secret room. | 7 | -1
-6 | The cabin is empty. You find a trapdoor leading downwards. | -1
+Your friend texts you to hang out. Do you say yes (1) or no (2)?,0,1,9
+They text back: YAY! should we go to the park (1) or the forest (2)?,1,2,3
+Ok. See you soon! You go to the park. Your friend isn't there yet. Do you play on the play structure (1) or leave (2)?,2,4,9
+You see a smiling man under the slide. Befriend him (1) or run away (2)?,4,5,6
+The man appreciates your kindness. He offers you money and a ride home. Do you accept? Yes (1)/No (2),5,10,6
+The man take you to his van. He starts driving but you haven't told him where you live. Do you try to escape (1) or make pleasant conversation(2)?,10,6,11
+The man drops you off at your house and gives you $5.,11,-1,-1
+The man gets angry and kills you. You die.,6,-1,-1
+Ok! See you soon! You go to the forest. Your friend isn't there yet. Do you explore (1) or text your friend (2)?,3,7,8
+While exploring you fall into a giant spiderweb. A giant spider emerges and eats you.,7,-1,-1
+Your friend doesn't respond. Do you want to explore (1) or go home(2)?,8,7,9
+You go to bed.,9,-1,-1
